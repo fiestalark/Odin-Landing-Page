@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+ul {
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header, .footer, .hero {
+    color: #F9FaF8;
+    background-color: #1F2937;
+}
+.hero, .cta {
+    padding: 4% 15%;
+}
+.header {
+    display: flex;
+    padding: 16px 15%;
+}
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+}
+.links {
+    display: flex;
+    gap: 16px;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    padding-bottom: 6%;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    gap: 10px;
+}
+.left p {
+    color: #818791;
+}
+.left button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 8px 24px;
+}
+.right {
+    flex: 1 1 0%;
+    display: flex;
+}
+.image {
+    background-color: #818791;
+    height: 100%;
+    width: 100%;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4vh;
+}
+.info h2 {
+    margin-bottom: 4vh;
+}
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+.item {
+    flex-basis: 140px;
+    text-align: center;
+}
+.item img {
+    height: 140px;
+    width: 140px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+.item-text {
+    font-size: 14px;
+    color: #1F2937;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 5% 20%;
+}
+.quote h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin-bottom: 2vh;
+    color: #1F2937;
+}
+.quote p {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
+button {
+    padding: 4px 16px;
+    border-radius: 4px;
+}
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 4vh 6vw;
+}
+.sign-up {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+.footer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
